@@ -18,11 +18,3 @@ class Product(Model):
 
     def __repr__(self) -> str:
         return f'Product({self.id}, "{self.name}")'
-
-
-c64 = Product(name="Commodore 64", manufacturer="Commodore")
-
-with Session() as session:
-    with session.begin():
-        session.add(c64)
-    print(64)

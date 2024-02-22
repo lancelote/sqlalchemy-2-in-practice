@@ -6,3 +6,6 @@ vendor/
 
 # Environment variables
 retrofun/.env
+
+# Database
+retrofun/retrofun.sqlite
