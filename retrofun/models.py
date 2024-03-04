@@ -3,7 +3,6 @@ from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 
 from db import Model
-from db import Session
 
 
 class Product(Model):
